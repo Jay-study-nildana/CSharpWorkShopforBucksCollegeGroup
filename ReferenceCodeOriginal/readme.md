@@ -1,15 +1,16 @@
-# C Sharp WorkShop for Bucks College Group
+# SOLID Principles with Batman Example
 
-coding repository for the upcoming workshop at bucks college group
+I decided to discuss SOLID principles using Batman as an example.
 
-# Course Outline
+Look at specific files here, for specific examples.
 
-In this course, you will learn the very basics of programming in C sharp aka C# with SOLID Principles
+1. [The single-responsibility principle](SinSOLID.cs)
+1. [The open–closed principle](OinSOLID.cs)
+1. [The Liskov substitution principle](LinSOLID.cs)
+1. [The interface segregation principle](IinSOLID.cs)
+1. [The dependency inversion principle](DinSOLID.cs)
 
-# Folders
-
-1. [Presentations](PresentationPPTPDFS) - contains Presentation material used in the class.
-1. [ReferenceCodeOriginal](ReferenceCodeOriginal) - contains original code for reference
+As usual, each file has plenty of comments for you to learn.
 
 # About Me
 
