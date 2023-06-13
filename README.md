@@ -6,10 +6,17 @@ coding repository for the upcoming workshop at bucks college group
 
 In this course, you will learn the very basics of programming in C sharp aka C# with SOLID Principles
 
+# Essential documents
+
+1. [LearningDiary](LearningDiary.md)
+1. [WorkshopOutline](WorkshopOutline.md)
+1. [HomeWork](HomeWork.md)
+
 # Folders
 
 1. [Presentations](PresentationPPTPDFS) - contains Presentation material used in the class.
 1. [ReferenceCodeOriginal](ReferenceCodeOriginal) - contains original code for reference
+1. [PracticeCode](PracticeCode) - contains practice code created during class
 
 # About Me
 
