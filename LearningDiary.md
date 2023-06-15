@@ -8,6 +8,11 @@ Resuming from last time.
 
 Topics Covered
 
+1. Functions Definition
+1. Functions calling
+1. Function return values
+1. Building a simple calculator with and without functions
+
 Presentation (available in the folder, \PresentationPPTPDFS)
 
 1. Day 0 - C Sharp Workshop Bucks College Group.ppt
@@ -15,8 +20,7 @@ Presentation (available in the folder, \PresentationPPTPDFS)
 
 Code and Projects 
 
-1. Day1PracticeCode
-
+1. Day2PracticeCode
 
 # June 13th 2023 Day 1
 
