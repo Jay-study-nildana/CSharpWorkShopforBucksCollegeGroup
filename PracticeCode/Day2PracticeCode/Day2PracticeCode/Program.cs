@@ -44,3 +44,44 @@ int quotient = num1 / num2;
 string fancyoutputquotient = $"{num1} / {num2} = {quotient}";
 
 Console.WriteLine(fancyoutputquotient);
+
+
+
+////lets do the same thing with functions
+///
+
+int numberOneForFunctions = 5;
+int numberTwoForFunctions = 10;
+
+//Function Definition
+
+int AddTwoNumbers(int num1, int num2)
+{
+    int sum = num1 + num2;
+    return sum;
+}
+
+//Function Call
+
+int storeResultOfAddTwoNumbersFunctionCall = AddTwoNumbers(numberOneForFunctions, numberTwoForFunctions);
+
+string fancyoutputforstoreResultOfAddTwoNumbersFunctionCall = $"{numberOneForFunctions} + {numberTwoForFunctions} = {storeResultOfAddTwoNumbersFunctionCall}";
+
+Console.WriteLine(fancyoutputforstoreResultOfAddTwoNumbersFunctionCall);
+
+int storeResultOfAddTwoNumbersFunctionCall2 = AddTwoNumbers(100, 200);
+int storeResultOfAddTwoNumbersFunctionCall3 = AddTwoNumbers(1000, 200);
+int storeResultOfAddTwoNumbersFunctionCall4 = AddTwoNumbers(166, 200);
+int storeResultOfAddTwoNumbersFunctionCall5 = AddTwoNumbers(188, 200);
+int storeResultOfAddTwoNumbersFunctionCall6 = AddTwoNumbers(190, 200);
+int storeResultOfAddTwoNumbersFunctionCall7 = AddTwoNumbers(16454, 200);
+int storeResultOfAddTwoNumbersFunctionCall8 = AddTwoNumbers(1443, 200);
+
+Console.WriteLine(storeResultOfAddTwoNumbersFunctionCall2);
+Console.WriteLine(storeResultOfAddTwoNumbersFunctionCall3);
+Console.WriteLine(storeResultOfAddTwoNumbersFunctionCall4);
+Console.WriteLine(storeResultOfAddTwoNumbersFunctionCall5);
+    Console.WriteLine(storeResultOfAddTwoNumbersFunctionCall6);
+    Console.WriteLine(storeResultOfAddTwoNumbersFunctionCall7);
+    Console.WriteLine(storeResultOfAddTwoNumbersFunctionCall8);
+    
