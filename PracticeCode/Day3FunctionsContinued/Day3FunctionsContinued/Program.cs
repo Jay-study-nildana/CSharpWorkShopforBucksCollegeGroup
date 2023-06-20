@@ -35,3 +35,19 @@ FunctionTypeTwo(tobeSentToFunctionMovieCount);
 
 FunctionTypeTwo(10);
 
+//same as Type two but with more than one parameter
+
+void FunctionTypeTwoPartB(int one, string two, bool three)
+{
+    string someOutput = $"The values are {one}, {two}, {three}";
+    Console.WriteLine(someOutput);
+}
+
+int one = 1;
+string two = "two";
+bool three = true;
+
+FunctionTypeTwoPartB(one, two, three);
+
+
+
