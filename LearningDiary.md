@@ -2,6 +2,25 @@
 
 learning dairy for the workshop.
 
+# June 20th 2023 Day 3
+
+Alright, let's resume. continuing the topics from last time. 
+
+Presentation (available in the folder, \PresentationPPTPDFS)
+
+1. Day 3 Onwards - C Sharp Workshop Bucks College Group
+
+Topics
+
+1. Functions Definition
+1. Functions calling
+1. Function return values
+1. Building a simple calculator with and without functions
+
+Code and Projects
+
+1. 
+
 # June 15th 2023 Day 2
 
 Resuming from last time. 

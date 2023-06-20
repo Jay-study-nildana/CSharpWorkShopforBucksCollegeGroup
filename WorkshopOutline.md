@@ -29,6 +29,20 @@ Additional links and references
 1. Create a bunch of variables – int, float and especially strings.
 1. Building Strings, with other strings.
 
+# Outline - Day 2
+
+1. Functions Definition
+1. Functions calling
+1. Function return values
+1. Building a simple calculator with and without functions
+
+# Outline - Day 3
+
+1. Functions Definition
+1. Functions calling
+1. Function return values
+1. Building a simple calculator with and without functions
+
 
 
 
