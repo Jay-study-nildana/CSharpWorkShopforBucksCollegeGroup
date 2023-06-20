@@ -74,5 +74,40 @@ int result = FunctionThatAddsTwoNumbers(doubleooseven, randomagent);
 string outputofAgents = $"The sum of {doubleooseven} and {randomagent} is {result}";
 Console.WriteLine(outputofAgents);
 
+//Type Four
+
+//a function that is NOT taking any parameters
+//and returning a value
+
+//function definition
+int FunctionThatReturnsRandomNumber()
+{
+    Random random = new Random();
+    int randomNumber = random.Next(1, 100);
+    return randomNumber;
+}
+
+int FunctionThatReturnsRandomNumber2(int lowerbound, int upperbound)
+{
+    Random random = new Random();
+    int randomNumber = random.Next(lowerbound,upperbound);
+    return randomNumber;
+}
+
+//function call
+//I simply want a random number, between 1 and 100
+
+int randomnumber = FunctionThatReturnsRandomNumber();
+string somerandomsentence = $"The random number is {randomnumber} between 1 and 100, no parameters are sent";
+
+Console.WriteLine(somerandomsentence);
+
+//I want a random number between 500 and 800
+int lowerboundvalue = 500;
+int upperboundvalue = 800;
+int randomnumber2 = FunctionThatReturnsRandomNumber2(500, 800);
+string somerandomsentence2 = $"The random number is {randomnumber2} between {lowerboundvalue} anbd {upperboundvalue}";
+
+Console.WriteLine(somerandomsentence2);
 
 
