@@ -4,6 +4,16 @@ homework is listed here.
 
 Note: Reference projects are available in the folder, PracticeCode.
 
+# Day 3 
+
+1. Create a project that will
+    1. a simple calculator
+    1. one single function that takes two parameters
+    1. then, that single function should in turn call four separate functions
+    1. each of these functions are about : addition, subtraction, division and multiplication
+    1. Then, show the result inside the first, single function
+    1. Bonus : check for 'divide by zero' in the division function using if else
+
 # Day 2
 
 1. Create a project that has the following things
