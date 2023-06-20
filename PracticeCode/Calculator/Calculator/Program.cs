@@ -71,4 +71,33 @@ Console.WriteLine($"The quotient of {someNumber1} and {someNumber2} is {quotient
 
 #endregion
 
+# region function definition part 2 without AI
+
+int Addition(int firstnumber, int secondnumber)
+{
+    int resultfromAddition = firstnumber + secondnumber;
+    return resultfromAddition;
+}
+
+int Substraction(int firstnumber, int secondnumber)
+{
+    int resultfromSubstraction = firstnumber - secondnumber;
+    return resultfromSubstraction;
+}
+
+int Multiplication(int firstnumber, int secondnumber)
+{
+    int resultfromMultiplication = firstnumber * secondnumber;
+    return resultfromMultiplication;
+}
+
+int Division(int firstnumber, int secondnumber)
+{
+    int resultfromDivision = firstnumber + secondnumber;
+    return resultfromDivision;
+}
+
+
+#endregion
+
 

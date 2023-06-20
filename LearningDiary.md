@@ -2,6 +2,12 @@
 
 learning dairy for the workshop.
 
+# learn github and gitbash
+
+1. new computer and developer tools setup (git bash and github) : https://youtu.be/snF5CvFtIEk
+1. more github : https://www.youtube.com/watch?v=VgUESSJLj9Y
+1. more github : https://www.youtube.com/watch?v=CU5LNdZ-FOM
+
 # June 20th 2023 Day 3
 
 Alright, let's resume. continuing the topics from last time. 
@@ -19,7 +25,10 @@ Topics
 
 Code and Projects
 
-1. 
+1. Calculator
+1. Day3FunctionsContinued
+
+Next : Object Oriented Programming 
 
 # June 15th 2023 Day 2
 
