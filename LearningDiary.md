@@ -25,7 +25,7 @@ Code and Projects
 
 1. ClassesandObjects
 
-Next : Object Oriented Programming 
+Next : Classes Continue (Behaviors, Private and Public)
 
 # June 20th 2023 Day 3
 

@@ -6,7 +6,12 @@ Note: Reference projects are available in the folder, PracticeCode.
 
 # Day 4
 
-1. 
+1. Create a project that will
+    1. A simple class
+    1. class should have at least 5 properties
+    1. then, use this class to create at least 3 objects in Program.cs
+    1. build an output with the values stored in these 3 objects
+    1. Bonus : see if you can build a function/behavior that will take care of the output from within the class itself. 
 
 # Day 3 
 
