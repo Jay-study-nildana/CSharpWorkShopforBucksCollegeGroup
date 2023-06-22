@@ -4,6 +4,10 @@ homework is listed here.
 
 Note: Reference projects are available in the folder, PracticeCode.
 
+# Day 4
+
+1. 
+
 # Day 3 
 
 1. Create a project that will
