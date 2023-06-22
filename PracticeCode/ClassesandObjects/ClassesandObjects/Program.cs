@@ -35,3 +35,15 @@ string thirdmoviestuff = $"The name of the movie is {thirdmovie.MovieTitle} and 
 Console.WriteLine(thirdmoviestuff);
 
 
+//lets create a video game object with MineCraft 
+
+VideoGame firstvideogame = new VideoGame();
+
+firstvideogame.NameOfVideoGame = "MineCraft";
+firstvideogame.TypeOfGame = "Online Educational Multiplayer Sandbox";
+firstvideogame.TypeOfGamingDevice = "iPhone, iPad, Xbox, PS, PC, Android";
+firstvideogame.GameReleaseYear = 2011;
+
+string firstvideogameoutput = $"name : {firstvideogame.NameOfVideoGame} type of videogame : {firstvideogame.TypeOfGame} where can you play it : {firstvideogame.TypeOfGamingDevice} release year : {firstvideogame.GameReleaseYear}";
+
+Console.WriteLine(firstvideogameoutput);
