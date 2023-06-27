@@ -4,6 +4,26 @@ homework is listed here.
 
 Note: Reference projects are available in the folder, PracticeCode.
 
+# Day 5 
+
+Build the class as per the algorithm discussed in the C Sharp Project, StudentDeveloper
+
+putting the algorithm here also.
+
+```
+    //20 hours per week
+    //25 weeks to become a beginner developer.
+    //number of weeks already completed is 0
+    //remaining weeks = 25 - 0 = 25 weeks
+    //ultimately, batman will become a developer in 25 weeks.
+
+    //10 hours per week
+    //50 weeks to become a beginner developer
+    //10 weeks are already completed
+    //remaining weeks = 50 - 10 = 40 weeks.
+    //eventually, catwoman will be a developer in 40 weeks.
+```
+
 # Day 4
 
 1. Create a project that will
