@@ -8,6 +8,28 @@ learning dairy for the workshop.
 1. more github : https://www.youtube.com/watch?v=VgUESSJLj9Y
 1. more github : https://www.youtube.com/watch?v=CU5LNdZ-FOM
 
+# June 27th 2023 Day 5
+
+Alright, let's resume. continuing the topics from last time. 
+
+Presentation (available in the folder, \PresentationPPTPDFS)
+
+1. Day 3 Onwards - C Sharp Workshop Bucks College Group
+
+Topics
+
+1. Object Oriented Programming
+1. Class and Object Usage
+1. Behaviors, Private and Public
+
+Code and Projects
+
+1. StudentDeveloper
+
+Next : Classes Continue (Behaviors, Private and Public)
+
+note: workshop wrapping up, next Tuesday, July 4th 2023.
+
 # June 22nd 2023 Day 4
 
 Alright, let's resume. continuing the topics from last time. 
