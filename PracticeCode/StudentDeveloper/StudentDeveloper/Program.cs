@@ -25,3 +25,15 @@ string outputForCatwoman = $" Student Name : {SelinaKyle.NameOfStudent} Study Ho
 Console.WriteLine(outputForBatman);
 Console.WriteLine(outputForCatwoman);
 
+//super hero guy called The Phantom
+
+Student KitWalker = new Student();
+
+KitWalker.NameOfStudent = "Kit Walker";
+KitWalker.StudyHoursPerWeek = 30;
+KitWalker.StudyWeeksCompleted = 30;
+
+KitWalker.BuildStudentInformation();
+KitWalker.DisplayStudentInformation();
+
+
