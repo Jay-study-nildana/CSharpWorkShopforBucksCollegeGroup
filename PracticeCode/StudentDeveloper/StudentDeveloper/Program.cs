@@ -14,16 +14,26 @@ BruceWayne.NameOfStudent = "Bruce Wayne";
 BruceWayne.StudyHoursPerWeek = 20;
 BruceWayne.StudyWeeksCompleted = 0;
 
+BruceWayne.BuildStudentInformation();
+BruceWayne.DisplayStudentInformation();
+
 SelinaKyle.NameOfStudent = "Selina Kyle";
 SelinaKyle.StudyHoursPerWeek = 10;
 SelinaKyle.StudyWeeksCompleted = 10;
 
-string outputForBatman = $" Student Name : {BruceWayne.NameOfStudent} Study Hours : {BruceWayne.StudyHoursPerWeek} Number of Weeks Completed : {BruceWayne.StudyWeeksCompleted}";
+SelinaKyle.BuildStudentInformation();
+SelinaKyle.DisplayStudentInformation();
 
-string outputForCatwoman = $" Student Name : {SelinaKyle.NameOfStudent} Study Hours : {SelinaKyle.StudyHoursPerWeek} Number of Weeks Completed : {SelinaKyle.StudyWeeksCompleted}";
+# region 
 
-Console.WriteLine(outputForBatman);
-Console.WriteLine(outputForCatwoman);
+//string outputForBatman = $" Student Name : {BruceWayne.NameOfStudent} Study Hours : {BruceWayne.StudyHoursPerWeek} Number of Weeks Completed : {BruceWayne.StudyWeeksCompleted}";
+
+//string outputForCatwoman = $" Student Name : {SelinaKyle.NameOfStudent} Study Hours : {SelinaKyle.StudyHoursPerWeek} Number of Weeks Completed : {SelinaKyle.StudyWeeksCompleted}";
+
+//Console.WriteLine(outputForBatman);
+//Console.WriteLine(outputForCatwoman);
+
+#endregion
 
 //super hero guy called The Phantom
 
@@ -35,5 +45,23 @@ KitWalker.StudyWeeksCompleted = 30;
 
 KitWalker.BuildStudentInformation();
 KitWalker.DisplayStudentInformation();
+
+//500 hours is the amount of time it takes to become
+//a beginner developer.
+
+int TotalNumberofHoursToBecomeDeveloper = 500;
+
+//20 hours per week
+//25 weeks to become a beginner developer.
+//number of weeks already completed is 0
+//remaining weeks = 25 - 0 = 25 weeks
+//ultimately, batman will become a developer in 25 weeks.
+
+//10 hours per week
+//50 weeks to become a beginner developer
+//10 weeks are already completed
+//remaining weeks = 50 - 10 = 40 weeks.
+//eventually, catwoman will be a developer in 40 weeks. 
+
 
 
