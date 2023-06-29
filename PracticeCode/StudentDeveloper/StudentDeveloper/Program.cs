@@ -46,10 +46,12 @@ KitWalker.StudyWeeksCompleted = 30;
 KitWalker.BuildStudentInformation();
 KitWalker.DisplayStudentInformation();
 
+#region old code about estimating developer time
+
 //500 hours is the amount of time it takes to become
 //a beginner developer.
 
-int TotalNumberofHoursToBecomeDeveloper = 500;
+//int TotalNumberofHoursToBecomeDeveloper = 500;
 
 //20 hours per week
 //25 weeks to become a beginner developer.
@@ -64,23 +66,34 @@ int TotalNumberofHoursToBecomeDeveloper = 500;
 //eventually, catwoman will be a developer in 40 weeks. 
 
 
-int numberOfWeeksBasedOnStudentWeeklyHoursCommitment =
-    TotalNumberofHoursToBecomeDeveloper / BruceWayne.StudyHoursPerWeek;
+//int numberOfWeeksBasedOnStudentWeeklyHoursCommitment =
+//    TotalNumberofHoursToBecomeDeveloper / BruceWayne.StudyHoursPerWeek;
 
 //Console.WriteLine(numberOfWeeksBasedOnStudentWeeklyHoursCommitment);
 
-int remainingnumberOfWeeksToStudy = 
-    numberOfWeeksBasedOnStudentWeeklyHoursCommitment - BruceWayne.StudyWeeksCompleted;
+//int remainingnumberOfWeeksToStudy = 
+//    numberOfWeeksBasedOnStudentWeeklyHoursCommitment - BruceWayne.StudyWeeksCompleted;
 
 //Console.WriteLine(remainingnumberOfWeeksToStudy);
 
-string outputforBatmanStudent = $" Student Name : {BruceWayne.NameOfStudent} will need to study for {remainingnumberOfWeeksToStudy} weeks to become a basic beginner developer";
+//string outputforBatmanStudent = $" Student Name : {BruceWayne.NameOfStudent} will need to study for {remainingnumberOfWeeksToStudy} weeks to become a basic beginner developer";
 
-Console.WriteLine(outputforBatmanStudent);
+//Console.WriteLine(outputforBatmanStudent);
+
+#endregion
 
 //here, I want to start using the Developer class
 
 Developer DeveloperTesting = new Developer();
+
+DeveloperTesting.CalculatorDeveloperEstimate(BruceWayne.StudyHoursPerWeek, BruceWayne.StudyWeeksCompleted, BruceWayne.NameOfStudent);
+DeveloperTesting.DisplayDeveloperEstimate();
+
+DeveloperTesting.CalculatorDeveloperEstimate(SelinaKyle.StudyHoursPerWeek, SelinaKyle.StudyWeeksCompleted, SelinaKyle.NameOfStudent);
+DeveloperTesting.DisplayDeveloperEstimate();
+
+DeveloperTesting.CalculatorDeveloperEstimate(KitWalker.StudyHoursPerWeek, KitWalker.StudyWeeksCompleted, KitWalker.NameOfStudent);
+DeveloperTesting.DisplayDeveloperEstimate();
 
 
 
