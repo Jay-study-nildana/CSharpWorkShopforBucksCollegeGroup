@@ -28,7 +28,19 @@ namespace StudentDeveloper
             int remainingnumberOfWeeksToStudy =
     numberOfWeeksBasedOnStudentWeeklyHoursCommitment - StudyWeeksCompleted;
 
-            this.outputforStudent = $" Student Name : {NameOfStudent} will need to study for {remainingnumberOfWeeksToStudy} weeks to become a basic beginner developer";
+            //for example, suppose the output is 25 weeks.
+            //that is roughly 5 months. 
+
+            int numberofMonths = 0;
+
+            while(remainingnumberOfWeeksToStudy > 4)
+            {
+                numberofMonths = numberofMonths + 1;
+                remainingnumberOfWeeksToStudy =
+                    remainingnumberOfWeeksToStudy - 4;
+            }
+
+            this.outputforStudent = $" Student Name : {NameOfStudent} will need to study for {numberofMonths} months to become a basic beginner developer";
         }
 
         public void DisplayDeveloperEstimate()

@@ -41,10 +41,15 @@ Student KitWalker = new Student();
 
 KitWalker.NameOfStudent = "Kit Walker";
 KitWalker.StudyHoursPerWeek = 30;
-KitWalker.StudyWeeksCompleted = 30;
+KitWalker.StudyWeeksCompleted = 10;
 
 KitWalker.BuildStudentInformation();
 KitWalker.DisplayStudentInformation();
+
+Student Jay = new Student();
+Jay.NameOfStudent = "Jay";
+Jay.StudyHoursPerWeek = 5;
+Jay.StudyWeeksCompleted = 1;
 
 #region old code about estimating developer time
 
@@ -93,6 +98,9 @@ DeveloperTesting.CalculatorDeveloperEstimate(SelinaKyle.StudyHoursPerWeek, Selin
 DeveloperTesting.DisplayDeveloperEstimate();
 
 DeveloperTesting.CalculatorDeveloperEstimate(KitWalker.StudyHoursPerWeek, KitWalker.StudyWeeksCompleted, KitWalker.NameOfStudent);
+DeveloperTesting.DisplayDeveloperEstimate();
+
+DeveloperTesting.CalculatorDeveloperEstimate(Jay.StudyHoursPerWeek, Jay.StudyWeeksCompleted, Jay.NameOfStudent);
 DeveloperTesting.DisplayDeveloperEstimate();
 
 
