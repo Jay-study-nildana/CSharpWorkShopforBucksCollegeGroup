@@ -4,6 +4,12 @@ homework is listed here.
 
 Note: Reference projects are available in the folder, PracticeCode.
 
+# Day 6
+
+Come up with another idea (like the developer estimate) and implement the solution to your idea with at least two classes. 
+
+So, essentially replicate the code from the previous homewokr, but this time, with your own idea. 
+
 # Day 5 
 
 Build the class as per the algorithm discussed in the C Sharp Project, StudentDeveloper

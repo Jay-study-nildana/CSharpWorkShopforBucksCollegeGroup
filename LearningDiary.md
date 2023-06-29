@@ -26,6 +26,16 @@ Code and Projects
 
 1. StudentDeveloper
 
+Next
+
+1. if else
+1. for loop
+1. general advise about where to go with C Sharp in the future
+1. Thoughts about Microsoft MVP
+1. Thoughts about Imagine Cup
+1. Any other questions and stuff. 
+1. Wrapping up
+
 # June 27th 2023 Day 5
 
 Alright, let's resume. continuing the topics from last time. 
