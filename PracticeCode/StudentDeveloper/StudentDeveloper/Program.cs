@@ -64,4 +64,23 @@ int TotalNumberofHoursToBecomeDeveloper = 500;
 //eventually, catwoman will be a developer in 40 weeks. 
 
 
+int numberOfWeeksBasedOnStudentWeeklyHoursCommitment =
+    TotalNumberofHoursToBecomeDeveloper / BruceWayne.StudyHoursPerWeek;
+
+//Console.WriteLine(numberOfWeeksBasedOnStudentWeeklyHoursCommitment);
+
+int remainingnumberOfWeeksToStudy = 
+    numberOfWeeksBasedOnStudentWeeklyHoursCommitment - BruceWayne.StudyWeeksCompleted;
+
+//Console.WriteLine(remainingnumberOfWeeksToStudy);
+
+string outputforBatmanStudent = $" Student Name : {BruceWayne.NameOfStudent} will need to study for {remainingnumberOfWeeksToStudy} weeks to become a basic beginner developer";
+
+Console.WriteLine(outputforBatmanStudent);
+
+//here, I want to start using the Developer class
+
+Developer DeveloperTesting = new Developer();
+
+
 
