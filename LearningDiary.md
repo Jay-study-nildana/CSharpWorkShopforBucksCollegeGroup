@@ -20,6 +20,9 @@ Thoughts about Imagine Cup
 Any other questions and stuff. 
 Wrapping up
 
+Wrapped Up the workshop today. 
+
+Thank you and good night, folks.
 
 # June 29th 2023 Day 6
 
