@@ -8,6 +8,19 @@ learning dairy for the workshop.
 1. more github : https://www.youtube.com/watch?v=VgUESSJLj9Y
 1. more github : https://www.youtube.com/watch?v=CU5LNdZ-FOM
 
+# July 4th 2023 Day 7
+
+Next Week : Final Session
+
+if else
+for loop
+general advice about where to go with C Sharp in the future
+Thoughts about Microsoft MVP
+Thoughts about Imagine Cup
+Any other questions and stuff. 
+Wrapping up
+
+
 # June 29th 2023 Day 6
 
 Resuming from last time. 
